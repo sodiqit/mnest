@@ -1,0 +1,27 @@
+{
+  "name": "@sodiqit-dev/mnest",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap Metalamp nest js starter kit",
+  "main": "src/index.js",
+  "bin": {
+    "@sodiqit/mnest": "bin/mnest",
+    "mnest": "bin/mnest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project",
+    "nestjs",
+    "metalamp"
+  ],
+  "author": "sodiqit",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.2.18"
+  }
+}
