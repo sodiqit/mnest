@@ -1,16 +1,21 @@
 {
-    "name": "@sodiqit/mnest",
-    "version": "1.0.0",
+    "name": "mnest",
+    "version": "0.0.1",
     "description": "A CLI to bootstrap Metalamp nest js starter kit",
     "main": "src/index.js",
     "bin": {
         "mnest": "bin/mnest"
     },
+    "files": [
+        "bin/",
+        "dist/"
+    ],
     "scripts": {
         "prebuild": "rm -rf dist",
         "build:dev": "yarn prebuild && rollup -c rollup.config.dev.js",
         "start:dev": "nodemon --watch ./src --exec 'yarn build:dev' -e ts"
     },
+    "repository": "git://github.com/sodiqit/mnest.git",
     "keywords": [
         "cli",
         "nestjs",
