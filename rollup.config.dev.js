@@ -8,7 +8,5 @@ export default {
             format: 'cjs',
         },
     ],
-    plugins: [
-        typeScript(),
-    ],
+    plugins: [typeScript()],
 };
